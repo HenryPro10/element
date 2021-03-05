@@ -305,7 +305,12 @@
 
       defaultSort: Object,
 
-      tooltipEffect: String,
+      tooltipSettings: {
+        type: Object,
+        default: {
+          placement: 'top'
+        }
+      },
 
       spanMethod: Function,
 
